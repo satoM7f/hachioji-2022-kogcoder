@@ -1,0 +1,92 @@
+/*---footer---*/
+footer {
+  font-size: 0.7rem; /*文字サイズ*/
+  text-align: center; /*内容をセンタリング*/
+  padding: 20px; /*ボックス内の余白*/
+  background: #111; /*背景色*/
+  color: #fff; /*文字色*/
+}
+
+/*リンクテキスト*/
+footer a {
+  text-decoration: none;
+  color: #fff;
+}
+
+/*メニューブロック全体*/
+#footermenu {
+  margin: 0;
+  padding: 0;
+  margin-bottom: 15px; /*下に空けるスペース*/
+}
+
+/*メニュー１個あたり*/
+#footermenu li {
+  display: inline-block; /*横並びにする*/
+  padding: 0 10px; /*上下、左右への余白*/
+  font-size: 1.2em;
+}
+
+/*copy right*/
+footer .copyright {
+  font-size: 1rem;
+  display: block;
+}
+/*------*/
+
+/*---img---*/
+
+img.logo-set {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
+}
+/*------*/
+
+/*---スライドショー---*/
+.mainimg {
+  position: relative;
+}
+/*------*/
+
+/*---文字---*/
+h2,
+p,
+li {
+  color: dimgray;
+  font-family: " 游ゴシック体", "YuGothic", "游ゴシック", "Yu Gothic",
+    "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", "Meiryo",
+    sans-serif;
+}
+
+h2 {
+  font-size: 2rem;
+}
+p {
+  color: black;
+  font-size: 1.2rem;
+}
+/*------*/
+
+/*---main---*/
+main {
+  margin: 3% 6%;
+  font-size: 1.2rem;
+}
+/*------*/
+
+/*---list---*/
+.descriptList {
+  list-style-type: none;
+}
+
+.descriptText {
+  font-size: 0.95em;
+}
+/*------*/
+
+/*---セクション---*/
+.sec {
+  margin-bottom: 50px;
+}
