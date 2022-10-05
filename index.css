@@ -1,0 +1,42 @@
+/*---文字---*/
+h1,
+h2,
+h3,
+p,
+li {
+  color: dimgray;
+  font-family: " 游ゴシック体", "YuGothic", "游ゴシック", "Yu Gothic",
+    "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", "Meiryo",
+    sans-serif;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+p {
+  font-size: 1.2rem;
+}
+/*------*/
+
+/*---main---*/
+main {
+  margin: 3% 6%;
+  font-size: 1.2rem;
+}
+/*------*/
+
+/*---page-link---*/
+#page-link {
+  /* 子要素を水平方向の中央に配置する */
+  display: flex;
+  justify-content: center;
+}
+
+.page-link-item {
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+/*------*/

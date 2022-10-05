@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hachisai-2022_SubPage</title>
+    <link rel="stylesheet" href="index.css" />
+    <link rel="stylesheet" href="tutorial.css" />
+  </head>
+  <body>
+    <main>
+      <h1>まずはwebの基本を教えます！</h1>
+      <h2>webページの材料</h2>
+      <p>基本的にwebページは以下の三つでできています。</p>
+      <ul>
+        <li>HTMLファイル＝ページの設計図</li>
+        <li>CSSファイル＝ページのデザイン</li>
+        <li>JavaScriptファイル＝動き・他ファイルの書き換え</li>
+      </ul>
+      <h2>(1) HTML</h2>
+      <p>HTMLはwebページの設計図です</p>
+      <p>
+        勘のいい人は気づいたかもしれませんが、webページはHTMLファイルさえあれば表示することは可能です。設計図があればとりあえずは機能するというのは直感的に分かりやすいかもしれません。逆に設計図もなしにデザインを決めることはできません。つまり、CSSファイル、JavaScriptファイルのみではwebページを表示することはできないのです。
+      </p>
+      <p>
+        実際にHTMLファイルのみでwebページが表示できることを確認してみましょう！
+      </p>
+      <iframe
+        height="300"
+        style="width: 100%"
+        scrolling="no"
+        title="hachisai-2022-web-3"
+        src="https://codepen.io/sato_ots/embed/abGjwKr?default-tab=html%2Cresult&editable=true"
+        frameborder="no"
+        loading="lazy"
+        allowtransparency="true"
+        allowfullscreen="true"
+      >
+        See the Pen
+        <a href="https://codepen.io/sato_ots/pen/abGjwKr">
+          hachisai-2022-web-3</a
+        >
+        by SATO Masaru (<a href="https://codepen.io/sato_ots">@sato_ots</a>) on
+        <a href="https://codepen.io">CodePen</a>.
+      </iframe>
+      <p class="description">
+        ※左のボックスがファイル（HTMLかCSSかJavaScript）、右のボックスがソースファイルによって作られたwebページのプレビューです。実際はもっとページの設定を記述しなければならないのですが、今回は省略して重要な部分だけ表示しています。
+      </p>
+      <p>御覧の通りHTMLファイルのみでwebページが表示できています。</p>
+      <h2>(2) CSS</h2>
+      <p>CSSファイルはデザインを設定するファイルです。</p>
+      <p>
+        HTML（設計図）に対して「ここを赤色にする」「この文字は大きくする」「ここはこういう配置にする」など、デザインを設定します。
+      </p>
+      <iframe
+        height="300"
+        style="width: 100%"
+        scrolling="no"
+        title="hachisai-2022-web-4"
+        src="https://codepen.io/sato_ots/embed/gOzjRZm?default-tab=html%2Cresult&editable=true"
+        frameborder="no"
+        loading="lazy"
+        allowtransparency="true"
+        allowfullscreen="true"
+      >
+        See the Pen
+        <a href="https://codepen.io/sato_ots/pen/gOzjRZm">
+          hachisai-2022-web-4</a
+        >
+        by SATO Masaru (<a href="https://codepen.io/sato_ots">@sato_ots</a>) on
+        <a href="https://codepen.io">CodePen</a>.
+      </iframe>
+      <p>
+        左のボックスのタブから「CSS」を押すとCSSファイルの内容を見ることができます
+      </p>
+      <p>
+        このCSSファイルではまず「h1」と書いてそのh1要素に対してどういったデザインをするかを指定しています。
+      </p>
+      <p>
+        このようにCSSではHTMLの場所を指定して、その要素に対してデザインを施します。従って、そもそもHTMLファイルが無いと何も指定できず、何もデザインできないのです。
+      </p>
+      <h2>(2) JavaScript</h2>
+      <p>
+        割愛します。理由は内容が高度になるからです。ただし、皆さんがよく利用するような人気なwebページには必ずと言っていい程JavaScriptが使われています。もしどのようなものか気になった方はKogCoderのスタッフに聞いてください！
+      </p>
+
+      <div id="page-link">
+        <a href="./index.html" class="page-link-item">≪最初のページに戻る</a>
+        <a href="./subPage.html" class="page-link-item"
+          >２限目：いつものページを「検証」しよう≫</a
+        >
+      </div>
+    </main>
+  </body>
+</html>

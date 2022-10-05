@@ -1,0 +1,66 @@
+/*---list---*/
+.descriptList {
+  list-style-type: none;
+}
+
+.descriptText {
+  font-size: 0.95em;
+}
+/*------*/
+
+/*---.sec---*/
+.sec {
+  margin-bottom: 50px;
+}
+/*------*/
+
+/*---スライドショー---*/
+.mainimg {
+  position: relative;
+}
+/*------*/
+
+/*---footer---*/
+footer {
+  font-size: 0.7rem; /*文字サイズ*/
+  text-align: center; /*内容をセンタリング*/
+  padding: 20px; /*ボックス内の余白*/
+  background: #111; /*背景色*/
+  color: #fff; /*文字色*/
+}
+
+/*リンクテキスト*/
+footer a {
+  text-decoration: none;
+  color: #fff;
+}
+
+/*メニューブロック全体*/
+#footermenu {
+  margin: 0;
+  padding: 0;
+  margin-bottom: 15px; /*下に空けるスペース*/
+}
+
+/*メニュー１個あたり*/
+#footermenu li {
+  display: inline-block; /*横並びにする*/
+  padding: 0 10px; /*上下、左右への余白*/
+  font-size: 1.2em;
+}
+
+/*copy right*/
+footer .copyright {
+  font-size: 1rem;
+  display: block;
+}
+/*------*/
+
+/*---img---*/
+img.logo-set {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
+}
+/*------*/
